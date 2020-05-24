@@ -1,5 +1,5 @@
 import 'package:built_value_test/matcher.dart';
-import 'package:contentful_dart/contentful_dart.dart';
+import 'package:contentful_client/contentful_client.dart';
 import 'package:test/test.dart';
 
 import '../utils/load_fixture.dart';

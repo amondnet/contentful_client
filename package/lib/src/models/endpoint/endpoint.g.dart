@@ -45,10 +45,10 @@ final BuiltSet<Endpoint> _$EndpointValues =
 Serializer<Endpoint> _$endpointSerializer = new _$EndpointSerializer();
 
 class _$EndpointSerializer implements PrimitiveSerializer<Endpoint> {
-  static const Map<String, String> _toWire = const <String, String>{
+  static const Map<String, Object> _toWire = const <String, Object>{
     'contentTypes': 'content_types',
   };
-  static const Map<String, String> _fromWire = const <String, String>{
+  static const Map<Object, String> _fromWire = const <Object, String>{
     'content_types': 'contentTypes',
   };
 

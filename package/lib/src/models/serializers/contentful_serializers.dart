@@ -3,8 +3,8 @@ library contentful_serializers;
 import 'package:built_collection/built_collection.dart';
 import 'package:built_value/serializer.dart';
 import 'package:built_value/standard_json_plugin.dart';
-import 'package:contentful_dart/src/models/models.dart';
-import 'package:contentful_dart/src/models/serializers/contentful_discriminator_plugin.dart';
+import 'package:contentful_client/src/models/models.dart';
+import 'package:contentful_client/src/models/serializers/contentful_discriminator_plugin.dart';
 
 part 'contentful_serializers.g.dart';
 

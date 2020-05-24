@@ -50,7 +50,7 @@ class _$SpaceSerializer implements StructuredSerializer<Space> {
           result.locales.replace(serializers.deserialize(value,
                   specifiedType:
                       const FullType(BuiltList, const [const FullType(Locale)]))
-              as BuiltList<dynamic>);
+              as BuiltList<Object>);
           break;
         case 'name':
           result.name = serializers.deserialize(value,

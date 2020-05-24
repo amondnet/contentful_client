@@ -5,8 +5,8 @@ import 'dart:convert';
 import 'package:built_collection/built_collection.dart';
 import 'package:built_value/built_value.dart';
 import 'package:built_value/serializer.dart';
-import 'package:contentful_dart/src/models/entry/entry_list.dart';
-import 'package:contentful_dart/src/models/system_fields/system_fields.dart';
+import 'package:contentful_client/src/models/entry/entry_list.dart';
+import 'package:contentful_client/src/models/system_fields/system_fields.dart';
 
 import 'post.dart';
 import 'serializers.dart';

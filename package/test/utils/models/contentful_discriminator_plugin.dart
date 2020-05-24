@@ -1,5 +1,5 @@
 import 'package:built_value/serializer.dart';
-import 'package:contentful_dart/src/models/models.dart';
+import 'package:contentful_client/src/models/models.dart';
 
 class ContentfulDiscriminatorPlugin extends SerializerPlugin {
   @override

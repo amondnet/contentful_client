@@ -53,13 +53,13 @@ class _$PostListSerializer implements StructuredSerializer<PostList> {
         case 'includes':
           result.includes = serializers.deserialize(value,
                   specifiedType: const FullType(BuiltListMultimap))
-              as BuiltListMultimap<dynamic, dynamic>;
+              as BuiltListMultimap;
           break;
         case 'items':
           result.items.replace(serializers.deserialize(value,
                   specifiedType:
                       const FullType(BuiltList, const [const FullType(Post)]))
-              as BuiltList<dynamic>);
+              as BuiltList<Object>);
           break;
         case 'limit':
           result.limit = serializers.deserialize(value,

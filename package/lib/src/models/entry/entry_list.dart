@@ -5,7 +5,7 @@
 // import 'package:built_collection/built_collection.dart';
 // import 'package:built_value/built_value.dart';
 // import 'package:built_value/serializer.dart';
-// import 'package:contentful_dart/src/models/models.dart';
+// import 'package:contentful_client/src/models/models.dart';
 
 // part 'entry_list.g.dart';
 
@@ -41,7 +41,7 @@
 // }
 
 import 'package:built_collection/built_collection.dart';
-import 'package:contentful_dart/src/models/models.dart';
+import 'package:contentful_client/src/models/models.dart';
 
 abstract class EntryList<T> {
   BuiltList<T> get items;

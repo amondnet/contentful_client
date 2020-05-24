@@ -58,7 +58,7 @@ class _$ContentTypeResponseSerializer
           result.items.replace(serializers.deserialize(value,
                   specifiedType: const FullType(
                       BuiltList, const [const FullType(ContentType)]))
-              as BuiltList<dynamic>);
+              as BuiltList<Object>);
           break;
         case 'limit':
           result.limit = serializers.deserialize(value,

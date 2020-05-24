@@ -77,7 +77,7 @@ final BuiltSet<FieldType> _$FieldTypeValues =
 Serializer<FieldType> _$fieldTypeSerializer = new _$FieldTypeSerializer();
 
 class _$FieldTypeSerializer implements PrimitiveSerializer<FieldType> {
-  static const Map<String, String> _toWire = const <String, String>{
+  static const Map<String, Object> _toWire = const <String, Object>{
     'array': 'Array',
     'asset': 'Asset',
     'boolean': 'Boolean',
@@ -93,7 +93,7 @@ class _$FieldTypeSerializer implements PrimitiveSerializer<FieldType> {
     'none': 'None',
     'richText': 'RichText',
   };
-  static const Map<String, String> _fromWire = const <String, String>{
+  static const Map<Object, String> _fromWire = const <Object, String>{
     'Array': 'array',
     'Asset': 'asset',
     'Boolean': 'boolean',

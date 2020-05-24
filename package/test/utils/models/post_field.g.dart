@@ -85,7 +85,7 @@ class _$PostFieldSerializer implements StructuredSerializer<PostField> {
           result.tags.replace(serializers.deserialize(value,
                   specifiedType:
                       const FullType(BuiltList, const [const FullType(String)]))
-              as BuiltList<dynamic>);
+              as BuiltList<Object>);
           break;
         case 'title':
           result.title = serializers.deserialize(value,
