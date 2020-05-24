@@ -5,7 +5,7 @@ import 'package:built_value/serializer.dart';
 import 'package:built_value/standard_json_plugin.dart';
 import 'package:flutter_example/src/models/post.dart';
 import 'package:flutter_example/src/models/post_fields.dart';
-import 'package:contentful_dart/contentful_dart.dart';
+import 'package:contentful_client/contentful_client.dart';
 import 'package:flutter_example/src/prototyping_ui/photo.dart';
 
 part 'serializers.g.dart';

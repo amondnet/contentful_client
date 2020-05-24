@@ -10,7 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  contentful_dart:
+  contentful_client:
     path: ../../package/
 
   built_collection: ^4.3.0

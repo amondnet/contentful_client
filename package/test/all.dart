@@ -18,6 +18,7 @@ import './models/space_test.dart' as space;
 import './models/system_fields_test.dart' as sys;
 import './networking/contentful_client_test.dart' as client;
 import './networking/contentful_http_client_test.dart' as http_client;
+import './networking/http2_client_test.dart' as http2_client;
 
 void main() {
   all_locales.main();
@@ -39,4 +40,5 @@ void main() {
   post_test.main();
   space.main();
   sys.main();
+  http2_client.main();
 }
